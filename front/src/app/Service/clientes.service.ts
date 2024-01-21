@@ -7,7 +7,7 @@ import {IClientes} from '../Interface/iclientes';
   providedIn: 'root'
 })
 export class ClientesService {
-  private urlBase:string ='http://localhost/php_angular_Aseguradoras/seguros/Controllers/Cliente.Controller.php?op=';
+  private urlBase:string ='http://localhost/EVALUACION_ASEGURADORAS_PHP_ANGULAR/seguros/Controllers/Cliente.Controller.php?op=';
   constructor(private cliente:HttpClient) { }
 
   todos():Observable<IClientes[]>{

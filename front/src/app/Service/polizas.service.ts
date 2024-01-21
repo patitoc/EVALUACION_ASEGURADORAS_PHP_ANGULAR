@@ -7,7 +7,7 @@ import {IPolizas} from '../Interface/ipolizas';
   providedIn: 'root'
 })
 export class PolizasService {
-  private urlBase:string ='http://localhost/php_angular_Aseguradoras/seguros/Controllers/Poliza.Controller.php?op=';
+  private urlBase:string ='http://localhost/EVALUACION_ASEGURADORAS_PHP_ANGULAR/seguros/Controllers/Poliza.Controller.php?op=';
   constructor(private cliente:HttpClient) { }
 
   todos():Observable<IPolizas[]>{

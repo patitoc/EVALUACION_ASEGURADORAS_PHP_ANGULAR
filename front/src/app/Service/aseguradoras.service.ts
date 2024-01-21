@@ -7,7 +7,7 @@ import {IAseguradoras} from '../Interface/iaseguradoras';
   providedIn: 'root'
 })
 export class AseguradorasService {
-  private urlBase:string ='http://localhost/php_angular_Aseguradoras/seguros/Controllers/Aseguradora.Controller.php?op=';
+  private urlBase:string ='http://localhost/EVALUACION_ASEGURADORAS_PHP_ANGULAR/seguros/Controllers/Aseguradora.Controller.php?op=';
   constructor(private cliente:HttpClient) { }
 
   todos():Observable<IAseguradoras[]>{
